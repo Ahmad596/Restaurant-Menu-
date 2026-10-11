@@ -1,0 +1,268 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 2100px;
+    background-color: #D4AF37;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: #0B0B0B;
+    position: fixed;
+    z-index: 1000;
+}
+.headerrow1{
+    width: 100%;
+    height: 100px;
+    background-color: #0B0B0B;
+    display: flex;
+
+}
+.img{
+    margin: auto;
+}
+h1{
+    margin-right: 500px;
+    color:  #D4AF37;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.headerrow2{
+    width: 100%;
+    height: 60px;
+    background-color: #0B0B0B;
+    border-top: 1px solid #D4AF37;
+}
+.home1 a{
+    text-decoration: underline;
+}
+nav{
+    width: 700px;
+    height: 30px;
+    background-color: #0B0B0B;
+    margin-top: 20px;
+    margin-left: 300px;
+    display: flex;
+}
+nav a{
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #D4AF37;
+    text-decoration-line: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: #8b5e3c;
+}
+.containar{
+    width: 100%;
+    height: 700px;
+    padding-top: 150px;
+    position: relative;
+}
+.containar img{
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+.row{
+    padding-top: 150px ;
+    width: 100%;
+    height: 800px;
+    background-color: #D4AF37;
+    display: flex;
+}
+.rowcol1{
+    width: 40%;
+    height: 700px;
+    background-color: #D4AF37;
+    font-size: 100px;
+     margin-top: 50px;
+}
+.rowcol2{
+    width: 60%;
+    height: 700px;
+    background-color: #D4AF37;
+    margin-top: 50px;
+}
+.ourmenu{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.booking-section {
+    padding: 80px 8%;
+    background: #f7f3ed;
+}
+
+.booking-container {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.booking-info h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.booking-info p {
+    color: #666;
+    line-height: 1.7;
+}
+
+.booking-details {
+    margin-top: 30px;
+}
+
+.booking-details p {
+    margin: 15px 0;
+    color: #333;
+}
+
+.booking-form {
+    background: white;
+    padding: 40px;
+    border-radius: 18px;
+
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+.booking-form h3 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.booking-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+    width: 100%;
+    padding: 14px;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    font-size: 15px;
+    outline: none;
+
+    box-sizing: border-box;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+    border-color: #b77935;
+}
+
+.booking-form textarea {
+    margin-top: 5px;
+    resize: vertical;
+}
+
+.booking-form button {
+    width: 100%;
+    margin-top: 20px;
+
+    padding: 16px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #b77935;
+    color: white;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.booking-form button:hover {
+    background: #8e5b2d;
+    transform: translateY(-2px);
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #0B0B0b;
+    display: flex;
+    margin-top: 200px;
+}
+.footerrow1{
+    width: 500px;
+    height: 400px;
+    background-color: #0B0B0b;
+}
+.img1{
+    margin-left: 90px;
+    padding-top: 50px;
+    background-color: #0B0B0b;
+    width: 150px;
+    height: 200px;
+}
+.heading{
+    width: 100%;
+    height: 200px;
+    background-color: #0B0B0b;
+    font-size: 50px;
+    padding-left: 50px;
+    color: #D4AF37;
+}
+.col1{
+    width: 500px;
+    height: 400px;
+    background-color: #0B0B0b;
+    padding-top: 100px;
+    padding-left: 30px;
+    font-size: 35px;
+    color: #D4AF37;
+}
+.col2{
+    width: 200px;
+    height: 400px;
+    background-color: #0B0B0b;
+    padding-top: 100px;
+    padding-left: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: #D4AF37;
+}
+.col2 a{
+    color: #D4AF37;
+}
+.col2 a:hover{
+    color: #8b5e3c;
+}
+.footerrow2{
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid #D4AF37;
+    background-color: #0B0B0b;
+    padding-top: 20px;
+    color: #D4AF37;
+    padding-left: 20px;
+}
